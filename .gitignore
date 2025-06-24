@@ -1,0 +1,55 @@
+# === ENVIRONNEMENTS VIRTUELS ===
+
+env/
+.venv/
+venv/
+
+# === FICHIERS PYTHON COMPILES ===
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# === LOGS ET SORTIES TEMPORAIRES ===
+
+- .log
+*.out
+*.tmp
+
+# === TESTS TEMPORAIRES ===
+
+.cache/
+.pytest_cache/
+
+# === JUPYTER NOTEBOOKS CHECKPOINTS ===
+
+.ipynb_checkpoints/
+
+# === FICHIERS DE CONFIGURATION PYCHARM ===
+
+.idea/
+
+# === BASES DE DONNÉES TEMPORAIRES ===
+
+- .sqlite
+*.db
+
+# === FICHIERS D'EXÉCUTION OU DE DONNÉES PERSO ===
+
+*.env
+.env.*
+secrets.json
+config.ini
+
+# === FICHIERS GÉNÉRÉS AUTOMATIQUEMENT ===
+
+- .bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# === DÉPENDANCES PACKAGÉES ===
+
+dist/
+build/
+*.egg-info/
