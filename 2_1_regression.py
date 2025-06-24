@@ -1,5 +1,4 @@
 import numpy as np
-from matplotlib.pyplot import title
 from sklearn.datasets import load_diabetes
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
