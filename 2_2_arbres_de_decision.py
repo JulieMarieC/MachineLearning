@@ -2,7 +2,6 @@ import numpy as np
 from sklearn.datasets import load_diabetes
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
-import seaborn as sns
 
 if __name__ == '__main__':
     dfX, sy = load_diabetes(return_X_y=True, as_frame=True)
